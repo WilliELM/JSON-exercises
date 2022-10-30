@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Json</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1></h1>
+<ul id="list">
+</ul>
+
+<button>Click for newer movies!</button>
+<div class="search-wrapper">
+<input class= "input" type="text" placeholder="Search.." data-search >
+</div>
+
+<div class="movies-cards" data-movies-cards-container>
+</div>
+
+
+<template data-movies-template>
+    <div class="movies-cards">
+        <div class="card">
+            <div class="header" data-header></div>
+            <div class="body" data-body></div>
+        </div>
+    </div>
+</template>
+
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+[
+  {
+    "orderName": "BurgerMenu",
+    "orderID": 22,
+    "price": 30,
+    "listOfDrinks":["cola,sprite"],
+    "orderExtras":["cheese,lettuce"]
+  },
+  {
+    "orderName": "Pizzamenu",
+    "orderID": 33,
+    "price": 21,
+    "listOfDrinks":["juice,fanta"],
+    "orderExtras":["doublecheese ,tomato"]
+  }
+]
+
